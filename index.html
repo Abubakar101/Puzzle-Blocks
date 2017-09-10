@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Puzzle Blocks</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!--Landing Page  -->
+  <div class="greetings">
+    <div class="title">Puzzle Blocks</div>
+    <div id="play" class="buttons">Play Now</div>
+    <div id="instructions" class="buttons">Instructions</div>
+    <div id="about" class="buttons">About</div>
+  </div>
+  <!--Name Input for the user after user clicks play  -->
+  <form class="nameForm" style="display: none">
+    <input type="text" class="nameInput" placeholder="Write Your Name!" />
+    <input type="submit" id="btn" value="Let's Started!" />
+  </form>
+  <!--Instructions for the user after user clicks Instructions  -->
+  <div class="writtenInstructions" style="display: none">
+    <h1>Puzzle Blocks</h1>
+    <h2>Game Instructions</h2>
+    <h3>Long time ago.....</h3>
+    <p>Just set the numbers in orders from 1st to 19th - starting first top-left block being 1st and top-right block being 5ths
+      and so on.......
+    </p>
+    <p>fair enough!?</p>
+    <img src="assets/puzzle.jpg" alt="" width="800" height="600">
+  </div>
+  <!--about for the user to user to know after user clicks about  -->
+  <div class="aboutMe" style="display: none">
+    <p>There is really nothing about me that much! The more you want to know about me, the mysterious I would get. </p>
+    <p>"Don't be fooled by my beauty.... The light of my face comes from the candle of my spirit." ― Rumi</p>
+  </div>
+
+  <div class="data" style="display: none">
+    <h4>Dear,</h4>
+    <div class="personName"></div>
+    <div class="message">
+      <p>You have successfully completed this challenged. Perhaps, there would be something else you may want to do now!</p>
+      <p id="sincerely">Sincerely,</p>
+      <p id="kahootzilla">kahootzilla</p>
+    </div>
+  </div>
+  <div class="container" style="display: none">
+    <div id="block">
+      <div class="blocks" id="1">1</div>
+      <div class="blocks" id="2">2</div>
+      <div class="blocks" id="3">3</div>
+      <div class="blocks" id="4">4</div>
+      <div class="blocks" id="5">5</div>
+      <div class="blocks" id="6">6</div>
+      <div class="blocks" id="7">7</div>
+      <div class="blocks" id="8">8</div>
+      <div class="blocks" id="9">9</div>
+      <div class="blocks" id="10">10</div>
+      <div class="blocks" id="11">11</div>
+      <div class="blocks" id="12">12</div>
+      <div class="blocks" id="13">13</div>
+      <div class="blocks" id="14">14</div>
+      <div class="blocks" id="15">15</div>
+      <div class="blocks" id="16">16</div>
+      <div class="blocks" id="17">17</div>
+      <div class="blocks" id="18">18</div>
+      <div class="blocks" id="19">19</div>
+      <div class="blocks" id="twenty"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
